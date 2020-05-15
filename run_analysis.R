@@ -1,15 +1,15 @@
 library(tidyverse)
-filename <- "Coursera_DS3_Final.zip"
+file <- "Coursera_DS3_Final.zip"
 
 # Checking if archieve already exists.
-if (!file.exists(filename)){
+if (!file.exists(file)){
   fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-  download.file(fileURL, filename, method="curl")
+  download.file(fileURL, file, method="curl")
 }  
 
 # Checking if folder exists
 if (!file.exists("UCI HAR Dataset")) { 
-  unzip(filename) 
+  unzip(file) 
 }
 
 #Assigning all data frames
