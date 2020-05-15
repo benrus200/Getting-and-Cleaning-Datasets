@@ -1,4 +1,4 @@
-In this project, data collected, cleaned, prepared and used for further analysis.
+In this project, data was collected, cleaned, prepared and used for further analysis.
 
 This repository contains the following files:
 
