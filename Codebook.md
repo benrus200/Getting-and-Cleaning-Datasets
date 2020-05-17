@@ -1,4 +1,5 @@
-## The run_analysis.R script performs the data preparation and then followed by some few steps required as described in the course project’s definition.
+# Code Book
+This code book summarizes the resulting data fields in `EndData.txt`.
 
 ## Download the dataset
 * Dataset downloaded and extracted under the folder called UCI HAR Dataset
